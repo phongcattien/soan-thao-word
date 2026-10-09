@@ -1,0 +1,72 @@
+# Build output
+**/bin/
+**/obj/
+**/build/
+**/publish/
+**/output/
+**/output-*/
+**/stage-Full/
+**/stage-Lite/
+**/release-backups/
+**/backups/
+**/diagnostics/
+
+# Generated packages and installers
+*.exe
+*.msi
+*.msix
+*.zip
+*.7z
+*.cab
+*.pdb
+*.application
+*.vsto
+*.manifest
+app-files.json
+build-test-ok.json
+package-manifest.json
+latest.json
+TienIchAiQuoc_v*/
+
+# Certificates and secrets
+*.pfx
+*.p12
+*.cer
+*.snk
+*.key
+*.pem
+*.secrets.*
+.env
+.env.*
+
+# Runtime dependencies provisioned outside Git
+TienIchAiQuoc/tools/poppler/
+installer/prerequisites/
+installer/tools/
+
+# Real documents and user data
+*.doc
+*.docx
+*.docm
+*.dot
+*.dotx
+*.pdf
+*.rtf
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+*.tmp
+*.bak
+*.log
+
+# IDE and OS
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+Thumbs.db
+Desktop.ini
+.DS_Store
+
